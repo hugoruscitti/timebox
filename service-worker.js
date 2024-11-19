@@ -1,16 +1,8 @@
-/**
- * The cache name should change every time you want to "cache bust"
- * i.e. if you want to change these files
- * in a real-world app this would be handled by your build system
- * e.g. Vite or Next.js would hash the files so the name is unique based on content
- * (style-XYZ123.css etc)
- */
-const CACHE_NAME = "mpwa-cache-v1";
+const CACHE_NAME = "timebox-cache-1";
 const urlsToCache = [
-  "/",
-  "/estilo.css",
-  "/app.js",
-  "/index.html",
+  "estilo.css",
+  "app.js",
+  "index.html",
 ];
 
 self.addEventListener("install", async (event) => {
