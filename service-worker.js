@@ -1,4 +1,4 @@
-const CACHE_NAME = "timebox-cache-1";
+const CACHE_NAME = "timebox-cache-2";
 const urlsToCache = [
   "estilo.css",
   "app.js",
